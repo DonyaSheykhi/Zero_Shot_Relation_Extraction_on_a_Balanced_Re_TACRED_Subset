@@ -1,0 +1,15 @@
+prompt_condition,gold_relation,count,correct,accuracy
+label_only__no_evidence,no_relation,15,15,1.0
+label_only__no_evidence,org:top_members/employees,15,15,1.0
+label_only__no_evidence,per:cities_of_residence,15,11,0.7333333333333333
+label_only__no_evidence,per:city_of_birth,15,3,0.2
+label_only__no_evidence,per:employee_of,15,7,0.4666666666666667
+label_only__no_evidence,per:origin,15,15,1.0
+label_only__no_evidence,per:schools_attended,15,12,0.8
+label_only__with_evidence,no_relation,15,14,0.9333333333333332
+label_only__with_evidence,org:top_members/employees,15,15,1.0
+label_only__with_evidence,per:cities_of_residence,15,11,0.7333333333333333
+label_only__with_evidence,per:city_of_birth,15,3,0.2
+label_only__with_evidence,per:employee_of,15,7,0.4666666666666667
+label_only__with_evidence,per:origin,15,15,1.0
+label_only__with_evidence,per:schools_attended,15,13,0.8666666666666667

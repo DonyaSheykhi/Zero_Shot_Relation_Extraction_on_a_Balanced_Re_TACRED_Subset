@@ -1,0 +1,11 @@
+prompt_condition,relation_category,count,correct,accuracy
+label_only__no_evidence,ambiguous_or_confusable,15,15,1.0
+label_only__no_evidence,easy_lexical,15,7,0.4666666666666667
+label_only__no_evidence,near_neighbor_confusable,30,18,0.6
+label_only__no_evidence,negative_control,15,15,1.0
+label_only__no_evidence,semantically_subtle,30,23,0.7666666666666667
+label_only__with_evidence,ambiguous_or_confusable,15,15,1.0
+label_only__with_evidence,easy_lexical,15,7,0.4666666666666667
+label_only__with_evidence,near_neighbor_confusable,30,18,0.6
+label_only__with_evidence,negative_control,15,14,0.9333333333333332
+label_only__with_evidence,semantically_subtle,30,24,0.8

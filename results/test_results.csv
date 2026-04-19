@@ -1,0 +1,3 @@
+prompt_condition,count,correct,accuracy
+label_only__no_evidence,105,78,0.7428571428571429
+label_only__with_evidence,105,78,0.7428571428571429

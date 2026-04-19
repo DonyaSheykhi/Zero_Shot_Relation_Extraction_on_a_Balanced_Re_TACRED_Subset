@@ -1,0 +1,37 @@
+{
+  "labels": [
+    "per:employee_of",
+    "per:schools_attended",
+    "org:top_members/employees",
+    "per:cities_of_residence",
+    "per:city_of_birth",
+    "per:origin",
+    "no_relation"
+  ],
+  "short_definitions": {
+    "per:employee_of": "a person is employed by, works for, or serves in a professional role within an organization",
+    "per:schools_attended": "a person studied at, attended, or graduated from an educational institution",
+    "org:top_members/employees": "an organization has a person as a prominent member, executive, leader, or employee",
+    "per:cities_of_residence": "a person lives or has lived in a city",
+    "per:city_of_birth": "a person was born in a city",
+    "per:origin": "a sentence identifies a person's origin, background, or source location in a national, ethnic, or geographic sense",
+    "no_relation": "no target relation is expressed between the two entities in the sentence"
+  },
+  "rich_definitions": {
+    "per:employee_of": "Use this relation when the sentence explicitly states or strongly indicates that a person works, worked, or serves in a formal professional capacity for an organization. Do not use it for temporary collaboration, partnership, public association, investment, event participation, or media mention unless employment or formal service is clearly expressed.",
+    "per:schools_attended": "Use this relation when the sentence indicates that a person was enrolled at, studied at, attended, or graduated from a school, college, or university. Do not use it for teaching, visiting, lecturing, donating, or employment unless student attendance is explicitly stated.",
+    "org:top_members/employees": "Use this relation when the sentence identifies a person as holding a leading, official, or recognized role within an organization. The direction matters: the subject is the organization and the object is the person. Do not use it for external collaboration or incidental mention.",
+    "per:cities_of_residence": "Use this relation when the sentence states that a person resides, lived, has been living, or is based in a city. Do not use it for birthplace, travel, temporary presence, or event location unless residence is clearly expressed.",
+    "per:city_of_birth": "Use this relation only when the sentence explicitly states or unmistakably implies that a city is the person's place of birth. Do not use it for upbringing, residence, nationality, or general association with the city.",
+    "per:origin": "Use this relation when the sentence describes where a person comes from in a broader sense of origin, such as national background, cultural origin, or source country or region. Do not use it for simple residence, workplace location, or birthplace unless the sentence frames it as origin or background.",
+    "no_relation": "Use this label when the sentence contains both entities but does not express any of the defined target relations. Co-occurrence alone is not sufficient."
+  },
+  "prompt_conditions": [
+    "label_only__no_evidence",
+    "short_definition__no_evidence",
+    "rich_definition__no_evidence",
+    "label_only__with_evidence",
+    "short_definition__with_evidence",
+    "rich_definition__with_evidence"
+  ]
+}

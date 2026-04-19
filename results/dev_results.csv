@@ -1,0 +1,7 @@
+prompt_condition,count,correct,accuracy
+label_only__with_evidence,210,179,0.8523809523809524
+label_only__no_evidence,210,177,0.8428571428571429
+short_definition__no_evidence,210,177,0.8428571428571429
+rich_definition__with_evidence,210,176,0.8380952380952381
+short_definition__with_evidence,210,174,0.8285714285714286
+rich_definition__no_evidence,210,172,0.819047619047619

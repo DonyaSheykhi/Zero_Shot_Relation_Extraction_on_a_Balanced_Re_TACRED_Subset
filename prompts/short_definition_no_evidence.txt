@@ -1,0 +1,24 @@
+You are performing zero-shot relation extraction.
+
+Task:
+Given a sentence and a marked subject-object entity pair, predict the single best relation between the subject and the object.
+
+Relation definitions:
+- per:employee_of = a person is employed by, works for, or serves in a professional role within an organization
+- per:schools_attended = a person studied at, attended, or graduated from an educational institution
+- org:top_members/employees = an organization has a person as a prominent member, executive, leader, or employee
+- per:cities_of_residence = a person lives or has lived in a city
+- per:city_of_birth = a person was born in a city
+- per:origin = a sentence identifies a person's origin, background, or source location in a national, ethnic, or geographic sense
+- no_relation = no target relation is expressed between the two entities in the sentence
+
+Instructions:
+- Choose exactly one label.
+- Use only the information in the sentence.
+- Do not use outside knowledge.
+- If no listed relation is clearly expressed, choose no_relation.
+- Set evidence_span to NONE.
+
+Sentence: "{sentence}"
+Subject: "{subj_text}" ({subj_type})
+Object: "{obj_text}" ({obj_type})

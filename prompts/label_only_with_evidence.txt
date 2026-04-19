@@ -1,0 +1,24 @@
+You are performing zero-shot relation extraction.
+
+Task:
+Given a sentence and a marked subject-object entity pair, predict the single best relation between the subject and the object, and provide the exact supporting text span from the sentence.
+
+Allowed relation labels:
+- per:employee_of
+- per:schools_attended
+- org:top_members/employees
+- per:cities_of_residence
+- per:city_of_birth
+- per:origin
+- no_relation
+
+Instructions:
+- Choose exactly one label.
+- Use only the information in the sentence.
+- Do not use outside knowledge.
+- The evidence span must be copied from the sentence.
+- If the correct label is no_relation, return evidence_span as NONE.
+
+Sentence: "{sentence}"
+Subject: "{subj_text}" ({subj_type})
+Object: "{obj_text}" ({obj_type})
