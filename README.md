@@ -32,15 +32,6 @@ How does evidence-grounded prompting interact with the semantic richness of rela
 - Richer relation descriptions did not outperform simpler label-only prompting
 - The hardest remaining relation was `per:city_of_birth`
 
-## Public release notes
-
-This repo is intentionally cleaned for public sharing.
-
-- Personal identifiers and course-submission metadata are not included
-- Local machine paths were removed
-- The benchmark data is not redistributed here
-- The public release preserves the prompt design, summary results, and cleaned reproduction scripts
-
 ## Repository layout
 
 ```text
