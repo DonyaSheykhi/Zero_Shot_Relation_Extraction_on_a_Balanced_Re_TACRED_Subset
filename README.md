@@ -107,4 +107,4 @@ This was a single-run, API-based prompt comparison. The archived project record 
 
 ## Citation
 
-If you reference this project, please cite or link the accompanying public summary in `paper/public_summary.pdf`.
+If you reference this project, please cite or link to the accompanying public summary for this repository.
